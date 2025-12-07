@@ -2,9 +2,7 @@
 session_start();
 include('verifica_login.php');
 include('menu.php');
-include('conexao_2.php'); // <-- conexão correta AQUI
-
-
+include('conexao_2.php');
 
 
 

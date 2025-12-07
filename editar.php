@@ -36,7 +36,7 @@ $aluno = $result->fetch_assoc();
         <div class="row justify-content-center align-items-start">
             <div class="col-md-8">
 
-              <!-- IMPORTANTÍSSIMO: AGORA ENVIA PARA update.php -->
+
               <form class="border p-4 rounded shadow bg-light" action="update.php" method="POST">
 
                 <h1 class="mb-4 text-center main-title">
