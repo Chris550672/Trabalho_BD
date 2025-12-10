@@ -21,10 +21,10 @@ O objetivo do projeto é ter um melhor gerenciamento básico de alunos, armazena
 ## 🔌 Códigos SQL e suas funções
 
 ### 👤 Tabela User
-CREATE TABLE users (
-    user_id INT AUTO_INCREMENT PRIMARY KEY,
-    user_email VARCHAR(100) NOT NULL UNIQUE,
-    user_password VARCHAR(255) NOT NULL
+CREATE TABLE users ( <br>
+    user_id INT AUTO_INCREMENT PRIMARY KEY,<br>
+    user_email VARCHAR(100) NOT NULL UNIQUE,<br>
+    user_password VARCHAR(255) NOT NULL<br>
 );
 
 #### Cria um local para armazenar as pessoas cadastradas e que irão acessar nosso site
@@ -163,5 +163,6 @@ O que eles fazem:
 
 ### Logout: Voltar pro Login
 <img width="682" height="156" alt="image" src="https://github.com/user-attachments/assets/290862f9-7a0d-4ee9-9cb5-eb9ea6d1e39e" />
+
 
 
